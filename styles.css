@@ -1,0 +1,111 @@
+body {
+	font-family: Helvetica;
+	padding: 80px; /*I'm not sure why adding padding helped move the search bar down from under the navbar*/
+}
+
+
+header {
+	background-color: #eee;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	padding: 10px;
+}
+
+.nav-header {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+.nav-link {
+	padding: 0 6px;
+}
+
+.logo {
+	font-weight: 800;
+}
+
+.search {
+	margin-bottom: 30px;
+}
+
+.search input {
+  font-size: 14px;
+  line-height: 30px;
+  height: 30px;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+  padding: 0 5px 0 8px;
+  width: 400px;
+}
+
+.search button {
+  font-size: 17px;
+  height: 30px;
+  background-color: white;
+  border: 1px solid ;
+  border-radius: 3px;
+}
+
+.magnifying-glass-icon {
+	height: 100%;
+}
+
+.search-btn {
+  vertical-align: bottom;
+}
+
+.pages {
+  display: inline-block; 
+  font-size: 0;
+  margin-bottom: 30px;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+}
+
+.pages-button {
+  font-size: 16px;
+  display: inline-block;
+  padding: 8px 15px;
+  border-radius: 3px;
+}
+
+.pages-display {
+  font-size: 16px;
+  padding: 0 30px;
+  padding: 8px 25px;
+  border-left: 1px solid #DDDDDD;
+  border-right: 1px solid #DDDDDD;
+}
+
+.listings {
+  padding: 0;
+}
+
+.listing {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+.listing-date ,
+.listing-location {
+  color: #999;
+}
+
+.listing-title {
+  font-weight: bold;
+  font-size: 17px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
